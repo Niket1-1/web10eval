@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<style>
+    img{
+        width: 70%;
+    }
+    #data{
+        display: grid;
+        grid-template-columns: repeat(4,20%);
+        grid-gap:5%
+    }
+</style>
+<body>
+    <h1>
+        ONLINE JWELLERY SHOP
+    </h1>
+
+<form id="myForm">
+<input type="text" id="name" placeholder="Name" required>
+<input type="text" id="rating" placeholder="Price" required>
+<input type="text" id="img" placeholder="Image" required>
+
+
+</form>
+
+<button onclick="storeLocation()">Add Products</button>
+<button onclick="showVisited()">Show Cart</button>
+<div id="data"></div>
+</body>
+
+
+
+
+</html>
+<script src="products.js"></script>
